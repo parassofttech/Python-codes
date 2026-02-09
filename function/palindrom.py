@@ -19,6 +19,7 @@ def is_palindrom(text):
         return True
     else:
         return False
+        
 text =input("Enter your number")
 palindrom = is_palindrom(text)
 print(palindrom)
